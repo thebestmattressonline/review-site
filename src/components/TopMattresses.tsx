@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -36,7 +37,7 @@ const TopMattresses = () => {
       rating: 4.7,
       price: "$1,699",
       badge: "Premium Pick",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/bb4b0052-9c2e-43ef-8963-a776b78ba008.png",
       pros: ["Superior pressure relief", "Excellent durability", "25-year warranty"],
       cons: ["Expensive", "Slow response time"],
       summary: "Premium memory foam construction provides unmatched pressure relief and support for a luxurious sleep experience."
