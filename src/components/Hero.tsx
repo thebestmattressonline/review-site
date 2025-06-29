@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Star, Award, Users, Laugh } from "lucide-react";
 
@@ -9,7 +8,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Laugh className="h-8 w-8 text-purple-600" />
-            <span className="text-lg font-semibold text-purple-600">The REAL Mattress Reviews</span>
+            <span className="text-lg font-semibold text-purple-600">The REAL Best Mattress Reviews</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">

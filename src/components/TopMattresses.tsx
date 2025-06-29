@@ -66,7 +66,7 @@ const TopMattresses = () => {
                     <img 
                       src={mattress.image} 
                       alt={mattress.name}
-                      className="w-full h-64 lg:h-full object-cover"
+                      className="w-full h-64 lg:h-full object-cover object-center"
                     />
                     <Badge className="absolute top-4 left-4 bg-purple-600 text-white">
                       #{index + 1}
