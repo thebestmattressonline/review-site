@@ -13,7 +13,7 @@ const TopMattresses = () => {
       rating: 4.8,
       price: "$1,299",
       badge: "Editor's Choice",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/752fdb10-bad9-435d-a435-5d8615b5cda4.png",
       pros: ["Excellent cooling", "Great for all sleep positions", "100-night trial"],
       cons: ["Higher price point", "Heavy mattress"],
       summary: "The Purple Hybrid Premier combines innovative gel grid technology with responsive coils for exceptional comfort and cooling."
