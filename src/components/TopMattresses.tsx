@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Star, Award, CheckCircle } from "lucide-react";
+import { Star, Award, CheckCircle, Zap } from "lucide-react";
 
 const TopMattresses = () => {
   const mattresses = [
@@ -12,11 +12,11 @@ const TopMattresses = () => {
       brand: "Purple",
       rating: 4.8,
       price: "$1,299",
-      badge: "Editor's Choice",
+      badge: "Most Overhyped",
       image: "/lovable-uploads/752fdb10-bad9-435d-a435-5d8615b5cda4.png",
-      pros: ["Excellent cooling", "Great for all sleep positions", "100-night trial"],
-      cons: ["Higher price point", "Heavy mattress"],
-      summary: "The Purple Hybrid Premier combines innovative gel grid technology with responsive coils for exceptional comfort and cooling."
+      pros: ["Looks cool in ads", "Great conversation starter", "Your friends will think you're trendy"],
+      cons: ["Costs more than your car payment", "Feels like sleeping on Jell-O", "Purple marketing won't leave you alone"],
+      summary: "The Purple Hybrid Premier: Because apparently regular mattresses aren't sciencey enough. Features a gel grid that's either revolutionary or just expensive marketing jargon - we're still figuring it out."
     },
     {
       id: 2,
@@ -24,11 +24,11 @@ const TopMattresses = () => {
       brand: "Casper",
       rating: 4.6,
       price: "$1,095",
-      badge: "Best Value",
+      badge: "Most Generic",
       image: "/lovable-uploads/4df46f84-817d-4612-a748-6c5fdf24db3b.png",
-      pros: ["Balanced feel", "Good motion isolation", "Free shipping"],
-      cons: ["May sleep warm", "Limited firmness options"],
-      summary: "A well-rounded mattress that works for most sleepers with its balanced foam construction and zoned support."
+      pros: ["Comes in a box (wow!)", "Has foam (revolutionary!)", "Exists"],
+      cons: ["Bland as unsalted crackers", "Every millennial has one", "Sleep trials are just fancy returns"],
+      summary: "The Casper Original: The iPhone of mattresses - everyone has one, nobody knows why. It's fine. Like really, really fine. That's it."
     },
     {
       id: 3,
@@ -36,11 +36,11 @@ const TopMattresses = () => {
       brand: "Tempur-Pedic",
       rating: 4.7,
       price: "$1,699",
-      badge: "Premium Pick",
+      badge: "Most Pretentious",
       image: "/lovable-uploads/bb4b0052-9c2e-43ef-8963-a776b78ba008.png",
-      pros: ["Superior pressure relief", "Excellent durability", "25-year warranty"],
-      cons: ["Expensive", "Slow response time"],
-      summary: "Premium memory foam construction provides unmatched pressure relief and support for a luxurious sleep experience."
+      pros: ["Makes you feel fancy", "Lasts longer than your marriage", "Great for showing off"],
+      cons: ["Costs more than a small country's GDP", "Takes 10 minutes to get out of bed", "Your guests will judge your life choices"],
+      summary: "Tempur-Pedic Cloud: For when you want to sleep on memory foam that costs more per square inch than gold. It remembers everything - including your financial mistakes."
     }
   ];
 
@@ -49,10 +49,11 @@ const TopMattresses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Top Rated Mattresses of 2024
+            The "Best" Mattresses of 2024
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our experts have tested hundreds of mattresses to bring you these top picks
+            We've tested these mattresses so you can see through the marketing nonsense. 
+            Spoiler: They're all just fancy rectangles you lie on.
           </p>
         </div>
         
@@ -67,12 +68,12 @@ const TopMattresses = () => {
                       alt={mattress.name}
                       className="w-full h-64 lg:h-full object-cover"
                     />
-                    <Badge className="absolute top-4 left-4 bg-blue-600 text-white">
+                    <Badge className="absolute top-4 left-4 bg-purple-600 text-white">
                       #{index + 1}
                     </Badge>
                     {mattress.badge && (
-                      <Badge className="absolute top-4 right-4 bg-yellow-500 text-white">
-                        <Award className="h-3 w-3 mr-1" />
+                      <Badge className="absolute top-4 right-4 bg-red-500 text-white">
+                        <Zap className="h-3 w-3 mr-1" />
                         {mattress.badge}
                       </Badge>
                     )}
@@ -95,11 +96,13 @@ const TopMattresses = () => {
                             ))}
                           </div>
                           <span className="font-semibold text-gray-900">{mattress.rating}</span>
+                          <span className="text-sm text-gray-500">(out of 5 paid reviews)</span>
                         </div>
                       </div>
                       <div className="text-right">
-                        <div className="text-2xl font-bold text-blue-600">{mattress.price}</div>
+                        <div className="text-2xl font-bold text-purple-600">{mattress.price}</div>
                         <div className="text-sm text-gray-600">Queen size</div>
+                        <div className="text-xs text-red-500">+ your soul</div>
                       </div>
                     </div>
                     
@@ -107,7 +110,7 @@ const TopMattresses = () => {
                     
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
-                        <h4 className="font-semibold text-green-700 mb-2">Pros</h4>
+                        <h4 className="font-semibold text-green-700 mb-2">"Pros" (According to Marketing)</h4>
                         <ul className="space-y-1">
                           {mattress.pros.map((pro, i) => (
                             <li key={i} className="flex items-center text-sm text-gray-700">
@@ -118,7 +121,7 @@ const TopMattresses = () => {
                         </ul>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-red-700 mb-2">Cons</h4>
+                        <h4 className="font-semibold text-red-700 mb-2">Reality Check</h4>
                         <ul className="space-y-1">
                           {mattress.cons.map((con, i) => (
                             <li key={i} className="flex items-center text-sm text-gray-700">
@@ -131,11 +134,11 @@ const TopMattresses = () => {
                     </div>
                     
                     <div className="flex flex-col sm:flex-row gap-3">
-                      <Button className="bg-blue-600 hover:bg-blue-700 text-white flex-1">
-                        Read Full Review
+                      <Button className="bg-purple-600 hover:bg-purple-700 text-white flex-1">
+                        Read Our Roast
                       </Button>
-                      <Button variant="outline" className="border-blue-200 text-blue-600 hover:bg-blue-50 flex-1">
-                        Check Best Price
+                      <Button variant="outline" className="border-purple-200 text-purple-600 hover:bg-purple-50 flex-1">
+                        Find Better Deals (Good Luck)
                       </Button>
                     </div>
                   </div>

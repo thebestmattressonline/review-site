@@ -5,22 +5,22 @@ import { Star, Quote } from "lucide-react";
 const Reviews = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Sarah J.",
       rating: 5,
-      text: "The reviews on this site were spot-on! I found my perfect mattress thanks to their detailed comparisons.",
-      mattress: "Purple Hybrid"
+      text: "Finally, a mattress review site that doesn't pretend sleeping on foam will cure my existential dread. Bought the cheapest one they recommended and guess what? I still have problems, but at least I'm not broke.",
+      mattress: "Generic Foam Thing"
     },
     {
-      name: "Mike Chen",
+      name: "Mike C.",
       rating: 5,
-      text: "Finally, honest mattress reviews without all the marketing fluff. Saved me hundreds of dollars.",
-      mattress: "Casper Original"
+      text: "These guys saved me from spending $3000 on a 'revolutionary sleep system.' Turns out my old mattress was fine, I just needed to go to bed before 2 AM. Who knew?",
+      mattress: "My Old Mattress"
     },
     {
-      name: "Emily Rodriguez",
+      name: "Emily R.",
       rating: 5,
-      text: "The expert analysis helped me understand what to look for. Best sleep I've had in years!",
-      mattress: "Tempur-Pedic"
+      text: "Their review told me that no mattress would fix my back problems and I should see a doctor instead. Best medical advice I've gotten from a mattress website. 10/10 would recommend.",
+      mattress: "Physical Therapy"
     }
   ];
 
@@ -29,10 +29,10 @@ const Reviews = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            What Our Readers Say
+            What Real People Actually Say
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who found their perfect mattress
+            Testimonials from people who appreciated our brutal honesty (and saved money)
           </p>
         </div>
         
@@ -40,7 +40,7 @@ const Reviews = () => {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6">
-                <Quote className="h-8 w-8 text-blue-600 mb-4" />
+                <Quote className="h-8 w-8 text-purple-600 mb-4" />
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   "{testimonial.text}"
                 </p>
@@ -53,7 +53,7 @@ const Reviews = () => {
                   ))}
                 </div>
                 <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                <div className="text-sm text-blue-600">Purchased: {testimonial.mattress}</div>
+                <div className="text-sm text-purple-600">Purchased: {testimonial.mattress}</div>
               </CardContent>
             </Card>
           ))}
