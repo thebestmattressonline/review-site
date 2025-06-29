@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -25,7 +24,7 @@ const TopMattresses = () => {
       rating: 4.6,
       price: "$1,095",
       badge: "Best Value",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/4df46f84-817d-4612-a748-6c5fdf24db3b.png",
       pros: ["Balanced feel", "Good motion isolation", "Free shipping"],
       cons: ["May sleep warm", "Limited firmness options"],
       summary: "A well-rounded mattress that works for most sleepers with its balanced foam construction and zoned support."
