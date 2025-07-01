@@ -7,39 +7,39 @@ const TopMattresses = () => {
   const mattresses = [
     {
       id: 1,
-      name: "CloudNine Levitator",
-      brand: "SnoozeTech Industries",
+      name: "TempurTantrum",
+      brand: "Tempur-Tantrum Sleep Co.",
       rating: 4.9,
       price: "$2,199",
       badge: "Most Overpriced",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=800&h=600&fit=crop",
-      pros: ["Anti-gravity sleep technology", "NASA-approved foam", "Zero-weight sensation"],
-      cons: ["Costs more than your rent", "Anti-gravity is just marketing", "NASA never approved anything"],
-      summary: "CloudNine Levitator: Claims to make you float while you sleep. Spoiler alert: you'll still wake up on Earth, just poorer."
+      image: "/lovable-uploads/438c1599-f106-4b29-a50d-b129abfaf169.png",
+      pros: ["Memory foam that remembers your tantrums", "Patented anger-absorption technology", "Cry-comfort guarantee"],
+      cons: ["Costs more than your rent", "Pillow looks perpetually angry", "Warranty void if you don't cry"],
+      summary: "TempurTantrum: So comfy it'll make you cry - from your bank account. The only mattress that promises emotional support while draining your wallet."
     },
     {
       id: 2,
-      name: "ZenMaster Pro",
-      brand: "BlissfulRest Co.",
+      name: "Has-Beens",
+      brand: "Nostalgic Sleep Solutions",
       rating: 4.7,
       price: "$1,599",
       badge: "Most Generic",
-      image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?w=800&h=600&fit=crop",
-      pros: ["Meditation-enhanced comfort", "Chakra-aligned springs", "Inner peace guarantee"],
-      cons: ["Sounds like a yoga retreat", "Chakras don't exist in mattresses", "Inner peace sold separately"],
-      summary: "ZenMaster Pro: The mattress that promises enlightenment but delivers the same old springs and foam. Namaste disappointed."
+      image: "/lovable-uploads/7a522065-b13c-4d2e-b037-9b15c510ced0.png",
+      pros: ["Classic checkered comfort", "Vintage horse-powered springs", "Reminds you of better times"],
+      cons: ["Sounds like a retirement home", "Horse left separately", "Better times never existed"],
+      summary: "Has-Beens: The mattress for people who peaked in high school. Features authentic checkered pattern that screams 'I've given up on life.'"
     },
     {
       id: 3,
-      name: "EcoLux Supreme",
-      brand: "GreenDream Organics",
+      name: "SLEEPOLOGY",
+      brand: "Scientific Snooze Institute",
       rating: 4.8,
       price: "$2,899",
       badge: "Most Pretentious",
-      image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=800&h=600&fit=crop",
-      pros: ["Hand-harvested organic cotton", "Carbon-negative manufacturing", "Blessed by tree spirits"],
-      cons: ["Costs more than a Tesla", "Tree spirits charge extra", "Still shipped in plastic wrap"],
-      summary: "EcoLux Supreme: For when you want to save the planet one overpriced nap at a time. Mother Earth approves, your wallet doesn't."
+      image: "/lovable-uploads/f917b42f-257a-435e-a420-1da2c7b90741.png",
+      pros: ["PhD-level sleep science", "Golden hexagon technology", "Awakens you to mattress freedom"],
+      cons: ["Costs more than a Tesla", "Science is just marketing", "Freedom comes with monthly payments"],
+      summary: "SLEEPOLOGY: Awaken to total mattress freedom (and total financial slavery). The only mattress with a PhD in taking your money."
     }
   ];
 
