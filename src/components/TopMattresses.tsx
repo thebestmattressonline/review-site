@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,39 +7,39 @@ const TopMattresses = () => {
   const mattresses = [
     {
       id: 1,
-      name: "SleepyCat Deluxe",
-      brand: "TabbyDream",
+      name: "DreamCloud Elite",
+      brand: "CloudTech Sleep",
       rating: 4.9,
-      price: "$2,499",
+      price: "$2,199",
       badge: "Most Overpriced",
       image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=800&h=600&fit=crop",
-      pros: ["Purrs you to sleep", "Self-warming technology", "Comes with built-in judgment"],
-      cons: ["Sheds foam everywhere", "Ignores you when you need comfort", "Demands premium fish treats"],
-      summary: "The SleepyCat Deluxe: Because apparently sleeping like a cat is worth $2,500. Features patented 'ignore-your-human' technology and premium tabby-grade materials."
+      pros: ["Cloud-like comfort technology", "Premium luxury materials", "30-night sleep trial"],
+      cons: ["Costs more than your rent", "Marketing budget exceeds R&D", "Free trial has 47 hidden fees"],
+      summary: "DreamCloud Elite: Where sleeping on actual clouds would be cheaper. Features 'revolutionary' foam that's basically the same as everyone else's, just with fancier marketing."
     },
     {
       id: 2,
-      name: "MonkeyBusiness Supreme",
-      brand: "BananaFoam",
+      name: "RestWell Hybrid Max",
+      brand: "SleepTech Solutions",
       rating: 4.7,
-      price: "$1,899",
-      badge: "Most Bananas",
+      price: "$1,599",
+      badge: "Most Generic",
       image: "https://images.unsplash.com/photo-1501286353178-1ec881214838?w=800&h=600&fit=crop",
-      pros: ["Goes bananas for comfort", "Swings you to dreamland", "Monkey-approved design"],
-      cons: ["Makes you go ape over the price", "Attracts actual monkeys", "Warranty void if you go bananas"],
-      summary: "MonkeyBusiness Supreme: The mattress that makes sleeping around seem appealing. Our patented banana-foam technology will have you swinging from the chandeliers... of your dreams."
+      pros: ["Hybrid spring and foam design", "Temperature regulating", "Made in America"],
+      cons: ["Sounds like every other mattress", "Temperature regulation is just marketing", "Made in America at Chinese prices"],
+      summary: "RestWell Hybrid Max: The most aggressively average mattress money can buy. Perfect for people who want to sleep on something that sounds impressive but feels like cardboard."
     },
     {
       id: 3,
-      name: "WildDeer Naturals",
-      brand: "ForestNap",
+      name: "NaturalSleep Organic",
+      brand: "EcoRest Premium",
       rating: 4.8,
-      price: "$3,299",
+      price: "$2,899",
       badge: "Most Pretentious",
       image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=800&h=600&fit=crop",
-      pros: ["All-natural woodland vibes", "Eco-friendly deer approval", "Makes you one with nature"],
-      cons: ["Costs more than your car", "Attracts hunting season jokes", "Requires forest permit to sleep"],
-      summary: "WildDeer Naturals: For when you want to sleep like you're in a National Geographic documentary. Warning: May cause excessive appreciation for nature and your bank account to go extinct."
+      pros: ["100% organic materials", "Eco-friendly certification", "Sustainable manufacturing"],
+      cons: ["Costs more than a used car", "Organic doesn't mean comfortable", "Your carbon footprint from shipping negates everything"],
+      summary: "NaturalSleep Organic: For when you want to pay premium prices to sleep on expensive hay. Guaranteed to make you feel morally superior while your back aches."
     }
   ];
 
