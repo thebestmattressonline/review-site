@@ -8,39 +8,39 @@ const TopMattresses = () => {
   const mattresses = [
     {
       id: 1,
-      name: "Purple Hybrid Premier",
-      brand: "Purple",
-      rating: 4.8,
-      price: "$1,299",
-      badge: "Most Overhyped",
-      image: "/lovable-uploads/752fdb10-bad9-435d-a435-5d8615b5cda4.png",
-      pros: ["Looks cool in ads", "Great conversation starter", "Your friends will think you're trendy"],
-      cons: ["Costs more than your car payment", "Feels like sleeping on Jell-O", "Purple marketing won't leave you alone"],
-      summary: "The Purple Hybrid Premier: Because apparently regular mattresses aren't sciencey enough. Features a gel grid that's either revolutionary or just expensive marketing jargon - we're still figuring it out."
+      name: "SleepyCat Deluxe",
+      brand: "TabbyDream",
+      rating: 4.9,
+      price: "$2,499",
+      badge: "Most Overpriced",
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=800&h=600&fit=crop",
+      pros: ["Purrs you to sleep", "Self-warming technology", "Comes with built-in judgment"],
+      cons: ["Sheds foam everywhere", "Ignores you when you need comfort", "Demands premium fish treats"],
+      summary: "The SleepyCat Deluxe: Because apparently sleeping like a cat is worth $2,500. Features patented 'ignore-your-human' technology and premium tabby-grade materials."
     },
     {
       id: 2,
-      name: "Casper Original",
-      brand: "Casper",
-      rating: 4.6,
-      price: "$1,095",
-      badge: "Most Generic",
-      image: "/lovable-uploads/4df46f84-817d-4612-a748-6c5fdf24db3b.png",
-      pros: ["Comes in a box (wow!)", "Has foam (revolutionary!)", "Exists"],
-      cons: ["Bland as unsalted crackers", "Every millennial has one", "Sleep trials are just fancy returns"],
-      summary: "The Casper Original: The iPhone of mattresses - everyone has one, nobody knows why. It's fine. Like really, really fine. That's it."
+      name: "MonkeyBusiness Supreme",
+      brand: "BananaFoam",
+      rating: 4.7,
+      price: "$1,899",
+      badge: "Most Bananas",
+      image: "https://images.unsplash.com/photo-1501286353178-1ec881214838?w=800&h=600&fit=crop",
+      pros: ["Goes bananas for comfort", "Swings you to dreamland", "Monkey-approved design"],
+      cons: ["Makes you go ape over the price", "Attracts actual monkeys", "Warranty void if you go bananas"],
+      summary: "MonkeyBusiness Supreme: The mattress that makes sleeping around seem appealing. Our patented banana-foam technology will have you swinging from the chandeliers... of your dreams."
     },
     {
       id: 3,
-      name: "Tempur-Pedic Cloud",
-      brand: "Tempur-Pedic",
-      rating: 4.7,
-      price: "$1,699",
+      name: "WildDeer Naturals",
+      brand: "ForestNap",
+      rating: 4.8,
+      price: "$3,299",
       badge: "Most Pretentious",
-      image: "/lovable-uploads/bb4b0052-9c2e-43ef-8963-a776b78ba008.png",
-      pros: ["Makes you feel fancy", "Lasts longer than your marriage", "Great for showing off"],
-      cons: ["Costs more than a small country's GDP", "Takes 10 minutes to get out of bed", "Your guests will judge your life choices"],
-      summary: "Tempur-Pedic Cloud: For when you want to sleep on memory foam that costs more per square inch than gold. It remembers everything - including your financial mistakes."
+      image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=800&h=600&fit=crop",
+      pros: ["All-natural woodland vibes", "Eco-friendly deer approval", "Makes you one with nature"],
+      cons: ["Costs more than your car", "Attracts hunting season jokes", "Requires forest permit to sleep"],
+      summary: "WildDeer Naturals: For when you want to sleep like you're in a National Geographic documentary. Warning: May cause excessive appreciation for nature and your bank account to go extinct."
     }
   ];
 
