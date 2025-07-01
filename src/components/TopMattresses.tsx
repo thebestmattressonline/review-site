@@ -7,39 +7,39 @@ const TopMattresses = () => {
   const mattresses = [
     {
       id: 1,
-      name: "DreamCloud Elite",
-      brand: "CloudTech Sleep",
+      name: "CloudNine Levitator",
+      brand: "SnoozeTech Industries",
       rating: 4.9,
       price: "$2,199",
       badge: "Most Overpriced",
       image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=800&h=600&fit=crop",
-      pros: ["Cloud-like comfort technology", "Premium luxury materials", "30-night sleep trial"],
-      cons: ["Costs more than your rent", "Marketing budget exceeds R&D", "Free trial has 47 hidden fees"],
-      summary: "DreamCloud Elite: Where sleeping on actual clouds would be cheaper. Features 'revolutionary' foam that's basically the same as everyone else's, just with fancier marketing."
+      pros: ["Anti-gravity sleep technology", "NASA-approved foam", "Zero-weight sensation"],
+      cons: ["Costs more than your rent", "Anti-gravity is just marketing", "NASA never approved anything"],
+      summary: "CloudNine Levitator: Claims to make you float while you sleep. Spoiler alert: you'll still wake up on Earth, just poorer."
     },
     {
       id: 2,
-      name: "RestWell Hybrid Max",
-      brand: "SleepTech Solutions",
+      name: "ZenMaster Pro",
+      brand: "BlissfulRest Co.",
       rating: 4.7,
       price: "$1,599",
       badge: "Most Generic",
       image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?w=800&h=600&fit=crop",
-      pros: ["Hybrid spring and foam design", "Temperature regulating", "Made in America"],
-      cons: ["Sounds like every other mattress", "Temperature regulation is just marketing", "Made in America at Chinese prices"],
-      summary: "RestWell Hybrid Max: The most aggressively average mattress money can buy. Perfect for people who want to sleep on something that sounds impressive but feels like cardboard."
+      pros: ["Meditation-enhanced comfort", "Chakra-aligned springs", "Inner peace guarantee"],
+      cons: ["Sounds like a yoga retreat", "Chakras don't exist in mattresses", "Inner peace sold separately"],
+      summary: "ZenMaster Pro: The mattress that promises enlightenment but delivers the same old springs and foam. Namaste disappointed."
     },
     {
       id: 3,
-      name: "NaturalSleep Organic",
-      brand: "EcoRest Premium",
+      name: "EcoLux Supreme",
+      brand: "GreenDream Organics",
       rating: 4.8,
       price: "$2,899",
       badge: "Most Pretentious",
       image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=800&h=600&fit=crop",
-      pros: ["100% organic materials", "Eco-friendly certification", "Sustainable manufacturing"],
-      cons: ["Costs more than a used car", "Organic doesn't mean comfortable", "Your carbon footprint from shipping negates everything"],
-      summary: "NaturalSleep Organic: For when you want to pay premium prices to sleep on expensive hay. Guaranteed to make you feel morally superior while your back aches."
+      pros: ["Hand-harvested organic cotton", "Carbon-negative manufacturing", "Blessed by tree spirits"],
+      cons: ["Costs more than a Tesla", "Tree spirits charge extra", "Still shipped in plastic wrap"],
+      summary: "EcoLux Supreme: For when you want to save the planet one overpriced nap at a time. Mother Earth approves, your wallet doesn't."
     }
   ];
 
