@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -67,7 +66,7 @@ const TopMattresses = () => {
                       src={mattress.image} 
                       alt={mattress.name}
                       className="w-full h-64 lg:h-full object-cover object-center"
-                      style={{ objectFit: 'stretch' }}
+                      style={{ objectFit: 'fill' }}
                     />
                     <Badge className="absolute top-4 left-4 bg-purple-600 text-white">
                       #{index + 1}
