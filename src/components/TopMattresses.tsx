@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -48,7 +49,7 @@ const TopMattresses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            The "Best" Mattresses of 2024
+            The "Best" Mattresses of 2025
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We've tested these mattresses so you can see through the marketing nonsense. 
@@ -66,6 +67,7 @@ const TopMattresses = () => {
                       src={mattress.image} 
                       alt={mattress.name}
                       className="w-full h-64 lg:h-full object-cover object-center"
+                      style={{ objectFit: 'stretch' }}
                     />
                     <Badge className="absolute top-4 left-4 bg-purple-600 text-white">
                       #{index + 1}
